@@ -15,12 +15,12 @@ public class ScreenChallengingDomStep extends Browser {
 		}
 		
 		@Quando("clicar nos botoes que apresentam na tela")
-		public void inputCEP() {
+		public void clicaBotao() {
 			screen.procurarBotao();
 		}
 		
 		@Entao("clique em todos os botões da tabela de editar e deletar")
-		public void backToMenu() {
+		public void cliqueEditeDelete() {
 			screen.editarDezVezes();
 			screen.deletarDezVezes();
 			
