@@ -26,7 +26,7 @@ The project was developed using the following technologies
 ```bash
 
     # clone
-    $ git clone https://github.com/drisanateixeira/automation-web.git
+    $ git clone https://github.com/drisanateixeira/projetoweb.git
 
     # install Allure in machine
     $ scoop install allure
