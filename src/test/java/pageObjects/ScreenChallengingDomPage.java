@@ -32,7 +32,7 @@ public class ScreenChallengingDomPage extends ScreenChallengingDomAttribute{
 	
 	public void deletarDezVezes() {
 		int i =1;
-		while (variavel <= 10) {
+		while (i <= 10) {
 			click(driver, By.xpath("(//a[@href='#delete'][text()='delete'])[\""+i+"\"]"), 0);
 			i++;
 		}
@@ -41,7 +41,7 @@ public class ScreenChallengingDomPage extends ScreenChallengingDomAttribute{
 	
 	public void editarDezVezes() {
 		int i =1;
-		while (variavel <= 10) {
+		while (i <= 10) {
 			click(driver, By.xpath("(//a[@href='#edit'][text()='edit'])[\""+i+"\"]"), 0);
 			i++;
 			
