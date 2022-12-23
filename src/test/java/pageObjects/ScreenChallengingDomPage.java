@@ -24,7 +24,6 @@ public class ScreenChallengingDomPage extends ScreenChallengingDomAttribute{
 	
 	
 	public void procurarBotao() {
-		//assertEqualsGetText(driver, quxBotao, 5, expected);
 		click(driver, quxBotao, 2);
 		click(driver,barBotao , 1);
 		click(driver,quxSuccessBotao , 1);
