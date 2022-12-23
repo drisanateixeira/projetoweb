@@ -34,7 +34,7 @@ public class ScreenChallengingDomPage extends ScreenChallengingDomAttribute{
 		int i =1;
 		while (variavel <= 10) {
 			click(driver, By.xpath("(//a[@href='#delete'][text()='delete'])[\""+i+"\"]"), 0);
-			variavel++;
+			i++;
 		}
 		
 	}
@@ -43,7 +43,7 @@ public class ScreenChallengingDomPage extends ScreenChallengingDomAttribute{
 		int i =1;
 		while (variavel <= 10) {
 			click(driver, By.xpath("(//a[@href='#edit'][text()='edit'])[\""+i+"\"]"), 0);
-			variavel++;
+			i++;
 			
 		}
 		
